@@ -1,6 +1,6 @@
 # Hand_RPS
 
-[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)][![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)]
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 Hand recognition and Rock-Paper-Scissors application using webcam + OpenCV.
 
@@ -11,15 +11,17 @@ Hand recognition and Rock-Paper-Scissors application using webcam + OpenCV.
 Simplify hand recognition and apply it to embedded devices and augmented reality (AR).
 
 <details>
-    <summary> ***Goals*** </summary>
-    - [x] Check for the execution environment.
-    - [ ] Create the button UI.
+    <summary><b>Goals</b></summary>
+    <ul>
+        <li>✅Check for the execution environment.</li>
+        <li>❌Create the button UI.</li>
+    </ul>
 </details>
 
 ## Requirement
 
-[!NOTE]
-The version as of developments are as below.
+> [!NOTE]
+> The version as of developments are as below.
 
 * Windows 11
 * Logicool C922n
@@ -54,4 +56,4 @@ test.exe
 
 ---
 
-Thank you😉
+Thank you:wink:
