@@ -15,6 +15,7 @@ Simplify hand recognition and apply it to embedded devices and augmented reality
     <ul>
         <li>✅Check for the execution environment.</li>
         <li>✅Hand recognition</li>
+        <li>✅Rock-Paper-Scissors with hand recognition(Not OOP)</li>
         <li>❌Create the button UI.</li>
     </ul>
 </details>
@@ -69,6 +70,20 @@ Adjust the HSV on the track bar so that your hand are clearly visible.
 
 > [!CAUTION]
 > If the background is close to your skin color, your hand and the background are not properly separated.
+
+## Usage
+
+```bash
+cd rps
+bazel build //src:rps
+cd bazel-bin/src
+rps.exe
+```
+1. Press the "じゃんけん" button.
+2. When "最初はグー" is displayed first, hold the "rock" shape for 2 to 3 seconds.
+3. When "じゃんけん" is displayed, promptly play rock, paper or scissors.
+4. When "ぽん！！" is displayed, and the rock-paper-scissors you played is shown in a separate window.
+5. The result of the rock-paper-scissors game with the CPU is displayed on the console screen.
 
 ---
 
