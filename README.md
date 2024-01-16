@@ -16,7 +16,11 @@ Simplify hand recognition and apply it to embedded devices and augmented reality
         <li>✅Check for the execution environment.</li>
         <li>✅Hand recognition</li>
         <li>✅Rock-Paper-Scissors with hand recognition(Not OOP)</li>
-        <li>❌Create the button UI.</li>
+        <li>❗Create the button UI.(OOP) -> issue</li>
+        <li>❌Refactoring - RPS(OOP)</li>
+        <li>❌Test Tools(CI/CD)</li>
+        <li>❌Support for CMake.</li>
+        <li>❌Support for Arduino.</li>
     </ul>
 </details>
 
@@ -71,6 +75,9 @@ Adjust the HSV on the track bar so that your hand are clearly visible.
 > [!CAUTION]
 > If the background is close to your skin color, your hand and the background are not properly separated.
 
+***3. Create the button UI.(OOP)***
+![class](img/class.png)
+
 ## Usage
 
 ```bash
@@ -84,6 +91,11 @@ rps.exe
 3. When "じゃんけん" is displayed, promptly play rock, paper or scissors.
 4. When "ぽん！！" is displayed, and the rock-paper-scissors you played is shown in a separate window.
 5. The result of the rock-paper-scissors game with the CPU is displayed on the console screen.
+
+## To be added
+![Arduino](img/Arduino.png)
+
+* Arduino will also be supported.
 
 ---
 

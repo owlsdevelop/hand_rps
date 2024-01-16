@@ -1,0 +1,5 @@
+new_local_repository(
+    name = "opencv",
+    path = "C:\\opencv4\\build",
+    build_file = "opencv.BUILD",
+)
