@@ -18,7 +18,7 @@ Simplify hand recognition and apply it to embedded devices and augmented reality
         <li>✅Rock-Paper-Scissors with hand recognition(Not OOP)</li>
         <li>❗Create the button UI.(OOP) -> issue</li>
         <li>❌Refactoring - RPS(OOP)</li>
-        <li>❌Test Tools(CI/CD)</li>
+        <li>❗Test Tools(CI/CD) -> branch</li>
         <li>❌Support for CMake.</li>
         <li>❌Support for Arduino.</li>
     </ul>
